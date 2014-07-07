@@ -111,6 +111,7 @@ public class Work {
 		}
 		if (args[0].equals("gui")) {
 			Window l = new Window();
+			//пример
 		}
 	}
 }
