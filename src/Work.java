@@ -56,6 +56,7 @@ public class Work {
 		String DBname = "FirstTest";
 		if (args[0].equals("setup")) {
 			sq.createTestBase(DBname);
+			boolean t = false;
 		}
 		if (args[0].equals("run")) {
 
