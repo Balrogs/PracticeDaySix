@@ -73,6 +73,10 @@ public class Window {
 		random = new ArrayList<Integer>();
 		sq.read(listQuestions, listAnswers, listTrueAnswers);
 		work.Random(random);
+		this.InitializeComponentRegistration(true);
+		this.InitializeComponentResult(false);
+		this.AddActionListenerRegistration();
+		this.AddActionListenerStart();
 
 	}
 

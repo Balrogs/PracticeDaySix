@@ -111,11 +111,6 @@ public class Work {
 		}
 		if (args[0].equals("gui")) {
 			Window l = new Window();
-			l.InitializeComponentRegistration(true);
-			l.InitializeComponentResult(false);
-			l.AddActionListenerRegistration();
-			l.AddActionListenerStart();
-
 		}
 	}
 }
